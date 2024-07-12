@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*,
+::before,
+::after {
+     margin: 0;
+     box-sizing: border-box;
+}
+
+a {
+     text-decoration: none;
+}
+
+ul {
+     list-style: none;
+     padding: 0;
+}
+
+img {
+     vertical-align: bottom;
+}
+
+button {
+     cursor: pointer;
+     padding: 0;
+}
+
+:disabled {
+     cursor: not-allowed;
+}
+
+html {
+     font-size: 15px;
+}
+
+iframe {
+     border: none;
+}
+
+@font-face {
+     font-family: mb;
+     src: url(../fonts/majesti-banner-book-webfont.woff2);
+     font-display: swap;
+}
+
+.maj {
+     font-family: mb, serif;
+}
+
+
+body {
+     font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+     max-width: 1200px;
+     margin: auto;
+     padding: 0 1rem;
+}
+
+.row {
+     display: flex;
+     flex-flow: row wrap;
+     margin: 0 -1rem;
+}
+
+[class^="col-"] {
+     flex: 1 0 auto;
+     padding: 0 1rem;
+}
+
+.col-1 {
+     flex-basis: 8.33%;
+     max-width: 8.33%;
+}
+
+.col-2 {
+     flex-basis: 16.66%;
+     max-width: 16.66%;
+}
+
+.col-3 {
+     flex-basis: 25%;
+     max-width: 25%;
+}
+
+.col-4 {
+     flex-basis: 33.33%;
+     max-width: 33.33%;
+}
+
+.col-5 {
+     flex-basis: 41.66%;
+     max-width: 41.66%
+}
+
+.col-6 {
+     flex-basis: 50%;
+     max-width: 50%;
+}
+
+.col-7 {
+     flex-basis: 58.33%;
+     max-width: 58.33%;
+}
+
+.col-8 {
+     flex-basis: 66.66%;
+     max-width: 66.66%;
+}
+
+.col-9 {
+     flex-basis: 75%;
+     max-width: 75%;
+}
+
+.col-10 {
+     flex-basis: 83.33%;
+     max-width: 83.33%;
+}
+
+.col-11 {
+     flex-basis: 91.66%;
+     max-width: 91.66%;
+}
+
+.col-12 {
+     flex-basis: 100%;
+     max-width: 100%;
+}
+
+.flex {
+     display: flex;
+     height: 100%;
+}
+
+.justify-right {
+     justify-content: right;
+}
+
+.align-center {
+     align-items: center;
+}
+
+/* layout */
+
+.wrap-1 {
+     background: #213532;
+     color: #fff;
+     padding: 13px 0;
+}
+
+nav {
+     height: 100%;
+}
+
+nav ul {
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: right;
+}
+
+nav ul li {
+     margin-left: 22px;
+}
+
+nav ul li a {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 146px;
+     height: 45px;
+     border: 3px solid;
+     color: inherit;
+     font-size: 14px;
+}
+
+nav ul li a.gold {
+     color: #e0c48f;
+}
+
+nav ul li a.active {
+     background: #10baae;
+     border-color: #10baae;
+}
+
+.wrap-2 {
+     background: url(../img/bg1.jpg) no-repeat center top/cover gray;
+     text-align: center;
+     padding: 157px 0 151px;
+}
+
+.wrap-2 p {
+     font-size: 100px;
+     line-height: 1.2;
+     color: #fff;
+     text-shadow: 0 5px 10px #4d4d4d;
+}
+
+.wrap-2 a {
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     width: 185px;
+     height: 50px;
+     background: #fff;
+     color: #516d69;
+     font-weight: bold;
+}
+
+.wrap-3 {
+     background: #213532;
+     color: #e0c48f;
+     text-align: center;
+     font-size: 30px;
+     line-height: 151px;
+     text-transform: uppercase;
+}
+
+.wrap-4 {
+     background: url(../img/bg2.jpg) no-repeat #f0f0f2;
+     padding: 76px 0 67px;
+}
+
+h2 {
+     color: #436d67;
+     font-size: 40px;
+     line-height: 1.25;
+}
+
+.para {
+     color: #8f9092;
+     font-size: 13px;
+     line-height: 24px;
+}
+
+.wrap-4 a {
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     width: 185px;
+     height: 50px;
+     color: #516d69;
+     font-weight: bold;
+     border: 3px solid;
+}
+
+.wrap-4 p {
+     margin: 55px 0;
+}
+
+.wrap-5 {
+     background: #fff;
+     padding: 100px 0;
+     text-align: center;
+}
+
+h3 {
+     color: #436d67;
+     font-size: 30px;
+     line-height: 1;
+}
+
+.wrap-6 {
+     background: #f0f0f2;
+     padding: 55px 0;
+     text-align: center;
+}
+
+iframe {
+     max-width: 100%;
+}
+
+.wrap-7 {
+     background: #213532;
+     color: #c7cccc;
+     text-align: center;
+     padding: 21px 0;
+}
+
+.wrap-8 {
+     background: #162724;
+     padding: 25px 0;
+     color: #c7cccc;
+     text-align: center;
+}
+
+.social {}
+
+.social ul {
+     display: flex;
+     justify-content: center;
+}
+
+.social ul li {
+     margin: 10px;
+}
+
+.social ul li a {
+     color: inherit;
+     font-size: 24px;
+}
+
+.nav {
+     display: flex;
+     justify-content: center;
+}
+
+.nav li {}
+
+.nav li a {
+     color: inherit;
+}
